@@ -1,0 +1,28 @@
+{
+  "name": "maratonadev",
+  "version": "1.0.0",
+  "description": "![](Layout.png)",
+  "main": "scripts.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dione-Vianna/Doe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dione-Vianna/Doe/issues"
+  },
+  "homepage": "https://github.com/Dione-Vianna/Doe#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nunjucks": "^3.2.0",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}

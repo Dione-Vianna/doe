@@ -6,4 +6,9 @@
 ## Tecnologias usadas 
 * Html
 * Css
-* JavaScript 
+* JavaScript
+* Nodejs
+* Express
+* Nunjucks
+* PostgreSQL
+* Postbird

@@ -1,0 +1,194 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    background: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.logo
+{
+    width: 120px;
+    margin: 70px 0;
+}
+
+header, main, footer
+{
+    text-align: center;
+}
+
+header, .form, main
+{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto 70px; 
+}
+
+header button
+{
+    margin-top: 30px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    background: #a00606ee;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+}
+
+header p
+{
+    margin-bottom: 12px;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+header h1
+{
+    margin-bottom: 15px;
+}
+
+main h2
+{
+    margin-bottom: 70px;
+}
+
+h1, h2, p
+{
+    color: #000000cc;
+}
+
+.form h2
+{
+    text-align: right;
+    color: #fff;
+    font-size: 18px;
+}
+
+.donors
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+form input, form button
+{
+    width: 100%;
+    margin-bottom: 4px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px #ffffff88 solid;
+}
+
+form input
+{
+    background: transparent;
+}
+
+form input::placeholder
+{
+    color: #ffffffaa;
+}
+
+form button
+{
+    font-weight: bold;
+}
+
+section.form
+{
+    transition: all 400ms;
+}
+
+section.form.hide
+{
+    opacity: 0;
+    visibility: hidden;
+    height: 0;
+    margin-top: -70px;
+}
+
+section.form
+{
+    display: grid;
+    background: #a00606ee;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 45px;
+    align-items: center;
+    padding: 16px 70px;
+    border-radius: 6px;
+}
+
+main h2 span
+{
+    color: #a00606ee;
+}
+
+h3
+{
+    margin-top: 70px;
+}
+
+
+main .text
+{
+    text-align:left;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight:bold;
+    line-height: 1.6;
+}
+
+.blood
+{
+    color: #a00606ee;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.blood::before
+{
+    content: "";
+    background: #ff4f4f33;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border-top-right-radius: 0;
+    transform: rotate(-45deg);
+}
+
+.donor p
+{
+    margin-top: 24px;
+    margin-bottom: 50px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer
+{
+    width: 100%;
+    margin-top: auto;
+    background: #a00606ee;
+    
+}
+
+footer p
+{
+    padding: 20px;
+    color: #fff;
+    border-top: 1px #eee solid;
+}
+
